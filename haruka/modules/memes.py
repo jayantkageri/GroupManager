@@ -4,7 +4,7 @@ from io import BytesIO
 import base64
 from spongemock import spongemock
 from zalgo_text import zalgo
-from deeppyer import deepfry
+
 import os
 from pathlib import Path
 import glob
@@ -14,7 +14,7 @@ from telegram import Message, Update, Bot, User
 from telegram import MessageEntity
 from telegram.ext import Filters, MessageHandler, run_async
 
-from haruka import dispatcher, DEEPFRY_TOKEN
+from haruka import dispatcher
 from haruka.modules.disable import DisableAbleCommandHandler, DisableAbleRegexHandler
 
 WIDE_MAP = dict((i, i + 0xFEE0) for i in range(0x21, 0x7F))
