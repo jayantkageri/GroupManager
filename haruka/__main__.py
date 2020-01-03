@@ -135,12 +135,12 @@ def send_start(bot, update):
         pass
 
     #chat = update.effective_chat  # type: Optional[Chat] and unused variable
-    text = "Hey there! My name is Ultron 2.0 - I'm here to help you manage your groups!\n\
+    text = "Hey there! My name is ultron 2.0 - I'm here to help you manage your groups!\n\
 Click Help button to find out more about how to use me to my full potential.\n\n"
 
-    text += "Join [Support Group](https://t.me/zonerschat) if you want to keep up with the news, updates and bot downtime!\n\n\"
-
-Made with love\n\nWant to add me to your group? [Click here!](t.me/supervillain_Bot?startgroup=true)"
+    text += "Join [Haruka Aya Group](https://t.me/zonerschat) ( @zonerschat ) if you need any support or help\n\n\
+Follow [ultron](https://t.me/supervillain_bot) ( @supervillain_bot ) if you want to keep up with the news, updates and bot downtime!\n\n\
+Made with love by \n\nWant to add me to your group? [Click here!](t.me/supervillain_bot?startgroup=true)"
 
     keyboard = [[InlineKeyboardButton(text="📢 Support Group", url="https://t.me/zonerschat")]]
     keyboard += [[InlineKeyboardButton(text="🛠 Control panel", callback_data="cntrl_panel_M")]]
