@@ -138,7 +138,7 @@ def send_start(bot, update):
     text = "Hey there! My name is Ultron 2.0 - I'm here to help you manage your groups!\n\
 Click Help button to find out more about how to use me to my full potential.\n\n"
 
-    text += "Join [Support Group](https://t.me/zonerschat) if you want to keep up with the news, updates and bot downtime!\n\n\
+    text += "Join [Support Group](https://t.me/zonerschat) if you want to keep up with the news, updates and bot downtime!\n\n\"
 
 Made with love\n\nWant to add me to your group? [Click here!](t.me/supervillain_Bot?startgroup=true)"
 
