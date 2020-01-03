@@ -261,7 +261,7 @@ MAFIA_HANDLER = DisableAbleCommandHandler("mafia", mafiatext, admin_ok=True)
 PIDOR_HANDLER = DisableAbleCommandHandler("pidor", pidortext, admin_ok=True)
 HITLER_HANDLER = DisableAbleCommandHandler("hitler", hitlertext, admin_ok=True)
 ZALGO_HANDLER = DisableAbleCommandHandler("zalgofy", zalgotext)
-DEEPFRY_HANDLER = DisableAbleCommandHandler("deepfry", deepfryer, admin_ok=True)
+
 SHOUT_HANDLER = DisableAbleCommandHandler("shout", shout, pass_args=True)
 
 
@@ -273,7 +273,7 @@ dispatcher.add_handler(STRETCH_HANDLER)
 dispatcher.add_handler(VAPOR_HANDLER)
 dispatcher.add_handler(MOCK_HANDLER)
 dispatcher.add_handler(ZALGO_HANDLER)
-dispatcher.add_handler(DEEPFRY_HANDLER)
+
 dispatcher.add_handler(KIM_HANDLER)
 dispatcher.add_handler(HITLER_HANDLER)
 
