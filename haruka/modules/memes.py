@@ -212,55 +212,9 @@ def zalgotext(bot: Bot, update: Update):
 # shitty maymay modules made by @divadsn vvv
 
 
-@run_async
-def deepfryer(bot: Bot, update: Update):
-    message = update.effective_message
-    if message.reply_to_message:
-        data = message.reply_to_message.photo
-        data2 = message.reply_to_message.sticker
-    else:
-        data = []
-        data2 = []
-
-    # check if message does contain media and cancel when not
-    if not data and not data2:
-        message.reply_text("What am I supposed to do with this?!")
-        return
-
-    # download last photo (highres) as byte array
-    if data:
-        photodata = data[len(data) - 1].get_file().download_as_bytearray()
-        image = Image.open(io.BytesIO(photodata))
-    elif data2:
-        sticker = bot.get_file(data2.file_id)
-        sticker.download('sticker.png')
-        image = Image.open("sticker.png")
-
-    # the following needs to be executed async (because dumb lib)
-    loop = asyncio.new_event_loop()
-    loop.run_until_complete(process_deepfry(image, message.reply_to_message, bot))
-    loop.close()
 
 
-async def process_deepfry(image: Image, reply: Message, bot: Bot):
-    # DEEPFRY IT
-    image = await deepfry(
-        img=image,
-        token=DEEPFRY_TOKEN,
-        url_base='westeurope'
-    )
 
-    bio = BytesIO()
-    bio.name = 'image.jpeg'
-    image.save(bio, 'JPEG')
-
-    # send it back
-    bio.seek(0)
-    reply.reply_photo(bio)
-    if Path("sticker.png").is_file():
-        os.remove("sticker.png")
-
-# shitty maymay modules made by @divadsn ^^^
 
 
 @run_async
