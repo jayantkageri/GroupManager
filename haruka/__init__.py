@@ -68,9 +68,8 @@ DEEPFRY_TOKEN = os.environ.get('DEEPFRY_TOKEN', "")
 
 SUDO_USERS.add(OWNER_ID)
 
-SUDO_USERS.add(654839744)
-SUDO_USERS.add(483808054)
-SUDO_USERS.add(254318997) #SonOfLars
+SUDO_USERS.add(631847622) #
+
 
 updater = tg.Updater(TOKEN, workers=WORKERS)
 
