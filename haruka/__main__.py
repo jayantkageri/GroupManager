@@ -29,7 +29,7 @@ I'm group manager bot and Anti-spam for WOLVERINE AND TEAM🃏
 Activate Anti-spam protection in your BM by this command : 
 /antispam on 
 
-My owner is [JOEY { J©ᵀᴹ }🔹](t.me/joey_dsvs12)
+My owner is [JOEY J©ᵀᴹ 🔹](t.me/joey_dsvs12)
 
 Special thanks to [WOLVERINE LOGAN](t.me/wolverine1510) for helping me.
 
