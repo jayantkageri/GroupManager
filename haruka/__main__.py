@@ -24,22 +24,16 @@ PM_START = """Hello {}, my name is {}!
 
 You know how hard it is sometimes to manage group so here is the solution for you
 
-I'm group manager bot and Anti-spam for RR Players🃏
+I'm group manager bot and Anti-spam for RR Players
 
 Activate Anti-spam protection in your BM by this command : 
 /antispam on 
 
-Made from the source code of [Aditya 🇮🇳](t.me/xditya)
-
-Special thanks to [this person](t.me/denver02) for helping me.
-
-Deploy a bot like me [now](www.github.com/xditya/GroupManager)
-
-Watch [video tutorial](https://www.youtube.com/watch?v=gXXFpTAk6Vo&feature=youtu.be) on deploying me.
+This Bo is Made By [Jayant](t.me/jayantkageri)
 
 Click /help or Help button below to find out more about how to use me to my full potential.
 
- Add me to a group by clicking [here](http://t.me/tg_GroupManagerBot?startgroup=true).
+ Add me to a group by clicking [here](http://t.me/TGGroupManager_bot?startgroup=true).
 """
 
 
@@ -193,9 +187,9 @@ def control_panel(bot, update):
         M_match = "ThaNos is the best bot" #LMAO, don't uncomment
 
     if M_match:
-        text = "*Control panel* 🛠"
+        text = "*Control panel*"
 
-        keyboard = [[InlineKeyboardButton(text="👤 My settings", callback_data="cntrl_panel_U(1)")]]
+        keyboard = [[InlineKeyboardButton(text="My settings", callback_data="cntrl_panel_U(1)")]]
 
         #Show connected chat and add chat settings button
         conn = connected(bot, update, chat, user.id, need_admin=False)
@@ -208,10 +202,10 @@ def control_panel(bot, update):
             member = chatG.get_member(user.id)
             if member.status in ('administrator', 'creator'):
                 text += f"\nConnected chat - *{chatG.title}* (you {member.status})"
-                keyboard += [[InlineKeyboardButton(text="👥 Group settings", callback_data="cntrl_panel_G_back")]]
+                keyboard += [[InlineKeyboardButton(text="Group settings", callback_data="cntrl_panel_G_back")]]
             elif user.id in SUDO_USERS:
                 text += f"\nConnected chat - *{chatG.title}* (you sudo)"
-                keyboard += [[InlineKeyboardButton(text="👥 Group settings (SUDO)", callback_data="cntrl_panel_G_back")]]
+                keyboard += [[InlineKeyboardButton(text="Group settings (SUDO)", callback_data="cntrl_panel_G_back")]]
             else:
                 text += f"\nConnected chat - *{chatG.title}* (you aren't an admin!)"
         else:
