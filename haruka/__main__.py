@@ -35,7 +35,10 @@ Click /help or Help button below to find out more about how to use me to my full
 
  Add me to a group by clicking [here](http://t.me/TGGroupManager_bot?startgroup=true).
 """
-
+DONATE_STRING = """So you want to donate? Amazing!
+It took a lot of work for my creator to get me to where I am now - so if you have some money to spare, and want to show your support; Donate!
+After all, server fees don't pay themselves - so every little helps! All donation money goes straight to funding the VPS, and of course, boosting morale - always nice to see my work is appreciated :) Contact @jayantkageri to Know How to Donate"""
+"""
 
 IMPORTED = {}
 MIGRATEABLE = []
