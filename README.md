@@ -1,3 +1,5 @@
+# This Project is no Longer under maintenance and Shifted to [this project](https://github.com/jayantkageri/Manager)
+
 # GroupManager
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fjayantkageri%2Fgroupmanager)
