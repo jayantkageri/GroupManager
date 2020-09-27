@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/xditya/GroupManager",
+  "repository": "hhttps://github.com/jayantkageri/GroupManager",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -30,7 +30,7 @@
   
     "URL": {
       "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
-      "value": "https:abotbyjayant.herokuapp.com"
+      "value": ""
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
