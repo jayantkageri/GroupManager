@@ -29,7 +29,7 @@ I'm group manager bot and Anti-spam for RR Players
 Activate Anti-spam protection in your BM by this command : 
 /antispam on 
 
-This Bo is Made By [Jayant](t.me/jayantkageri)
+This Bot is Made By [Jayant](t.me/jayantkageri) from the Source of Haruka Aya and Marie
 
 Click /help or Help button below to find out more about how to use me to my full potential.
 
